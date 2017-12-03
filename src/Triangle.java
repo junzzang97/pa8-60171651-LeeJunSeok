@@ -1,3 +1,4 @@
+//60171651 이준석
 
 public class Triangle extends Shape{
 	
@@ -18,6 +19,8 @@ public class Triangle extends Shape{
 		className = Triangle.class.getSimpleName();
 	}
 	
+	//Triangle클래스의 draw는 세 꼭지점을 출력해야하므로
+	//위, 왼쪽, 오른쪽 순으로 출력했다.
 	public void draw() {
 		String coor = String.format("(%.1f, %.1f)-(%.1f, %.1f)-(%.1f, %.1f)", 
 				x, y, x-bottom/2, y-width, x+bottom/2, y-width);

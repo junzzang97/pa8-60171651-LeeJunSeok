@@ -4,6 +4,8 @@ public abstract class Shape implements Drawable, Movable{
 
 	//Shape클래스는 Rectangle과 Circle의 상위 클래스이므로, 두 클래스가 공통적으로 가지고있는 area와 length를
 	//instance변수로 가지고 있다. length는 도형의 둘레를 의미한다.
+	
+	//이번 PA8의 지시대로 Movable을 implements했다.
 	private double area;
 	private double length;
 	
